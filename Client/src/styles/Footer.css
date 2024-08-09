@@ -1,0 +1,166 @@
+.footer {
+    padding: 40px;
+    background-color: #0d0d0d;
+    border-top: 1px solid #ddd;
+    position: relative;
+}
+
+.footer-logo {
+    margin-left: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.footer-logo img {
+    height: 50px;
+}
+
+.footer-logo p {
+    color: white;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    flex: 1;
+}
+
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer-section h3 {
+    padding-left: 90px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    color: rgb(255, 187, 0);
+    text-align: left;
+
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding-left: 90px;
+    text-align: left;
+
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+    color: white;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-social {
+    margin-top: 10px;
+}
+
+.footer-social a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1.9em;
+}
+
+
+.fab {
+    font-family: 'Font Awesome 5 Brands';
+}
+
+
+.footer-copyright {
+    text-align: center;
+    margin-top: 35px;
+    color: white;
+    background-color: rgb(45, 46, 47);
+    padding: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    position: relative;
+}
+
+
+.text123,
+.text12,
+.text1 {
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+.text123 {
+    margin-top: 25px;
+}
+
+.text12 {
+    font-size: 20px;
+}
+
+.text1 {
+    font-size: 12px;
+}
+
+@media (max-width: 1024px) {
+    .footer-container {
+        padding: 15px;
+    }
+
+    .footer-logo img {
+        width: 180px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-logo img {
+        width: 150px;
+    }
+
+    .footer-social-icons {
+        margin-top: 10px;
+        flex-direction: column;
+    }
+
+    .footer-social-icons a {
+        margin: 5px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-container {
+        padding: 10px;
+    }
+
+    .footer-logo img {
+        width: 120px;
+    }
+}

@@ -1,0 +1,140 @@
+.header {
+    padding: 0 20px;
+}
+.logo {
+    width: 85px;
+    height: auto;
+}
+
+.country-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+.dropdown-flag {
+    width: 24px;
+    height: 16px;
+    margin-right: 8px;
+}
+
+.login-btn {
+    width: 120px;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: rgb(240, 104, 58);
+}
+
+.divider {
+    width: 2px;
+    height: 30px;
+    background-color: #ccc;
+    margin: 0 20px;
+}
+
+.header .navbar-collapse {
+    justify-content: flex-end;
+}
+
+.header .navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header .navbar-nav .nav-item {
+    margin-left: 15px;
+}
+
+.header .navbar-nav .nav-link {
+    font-size: 16px;
+}
+
+
+@media (max-width: 1024px) {
+    .logo {
+        width: 75px;
+    }
+
+    .country-icon {
+        width: 18px;
+        height: 18px;
+    }
+
+    .dropdown-flag {
+        width: 22px;
+        height: 14px;
+    }
+
+    .login-btn {
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+
+    .divider {
+        height: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header .navbar-collapse {
+        justify-content: center;
+    }
+
+    .header .navbar-nav {
+        margin-top: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header .navbar-nav .nav-item {
+        margin: 5px 0;
+    }
+
+    .logo {
+        width: 60px;
+    }
+
+    .country-icon {
+        width: 16px;
+        height: 16px;
+    }
+
+    .dropdown-flag {
+        width: 20px;
+        height: 12px;
+    }
+
+    .login-btn {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+
+    .divider {
+        height: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        width: 50px;
+    }
+
+    .country-icon {
+        width: 14px;
+        height: 14px;
+    }
+
+    .dropdown-flag {
+        width: 18px;
+        height: 10px;
+    }
+
+    .login-btn {
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+
+    .divider {
+        height: 15px;
+    }
+}
